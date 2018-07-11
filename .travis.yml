@@ -1,0 +1,20 @@
+language: php
+
+php:
+  - 7.1
+  - 7.2
+  - hhvm
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_script:
+  - travis_retry composer install --no-interaction --prefer-source --no-suggest
+
+script:
+  - vendor/bin/phpunit --process-isolation --coverage-clover build/logs/clover.xml
+
+after_success:
+  - sh -c 'if [ "$TRAVIS_PHP_VERSION" != "hhvm" ]; then php vendor/bin/coveralls -v; fi;'
+

@@ -1,0 +1,4 @@
+suites:
+    package_test__suite:
+        namespace: Mpociot\LaravelTestFactoryHelper
+        psr4_prefix: Mpociot

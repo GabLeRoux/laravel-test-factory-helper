@@ -4,6 +4,21 @@
 
 This package helps you generate model factories from your existing models / database structure to get started with testing your Laravel application even faster.
 
+> Current Build Status
+
+[![Build Status](https://travis-ci.org/mpociot/laravel-test-factory-helper.svg?branch=master)](https://travis-ci.org/mpociot/laravel-test-factory-helper)
+[![Code Climate](https://codeclimate.com/github/mpociot/laravel-test-factory-helper/badges/gpa.svg)](https://codeclimate.com/github/mpociot/laravel-test-factory-helper)
+[![StyleCI](https://styleci.io/repos/31179862/shield)](https://styleci.io/repos/31179862) <!-- todo: replace me! -->
+[![Coverage Status](https://coveralls.io/repos/github/mpociot/laravel-test-factory-helper/badge.svg?branch=master)](https://coveralls.io/github/mpociot/laravel-test-factory-helper?branch=master)
+
+> Statistics
+
+[![Latest Stable Version](https://poser.pugx.org/mpociot/laravel-test-factory-helper/v/stable.svg)](https://packagist.org/packages/mpociot/laravel-test-factory-helper)
+[![Latest Unstable Version](https://poser.pugx.org/mpociot/laravel-test-factory-helper/v/unstable.svg)](https://packagist.org/packages/mpociot/laravel-test-factory-helper) [![License](https://poser.pugx.org/mpociot/laravel-test-factory-helper/license.svg)](https://packagist.org/packages/mpociot/laravel-test-factory-helper)
+[![Total Downloads](https://poser.pugx.org/mpociot/laravel-test-factory-helper/downloads.svg)](https://packagist.org/packages/mpociot/laravel-test-factory-helper)
+[![Monthly Downloads](https://poser.pugx.org/mpociot/laravel-test-factory-helper/d/monthly.png)](https://packagist.org/packages/mpociot/laravel-test-factory-helper)
+[![Daily Downloads](https://poser.pugx.org/mpociot/laravel-test-factory-helper/d/daily.png)](https://packagist.org/packages/mpociot/laravel-test-factory-helper)
+
 ### Example output
 
 #### Migration and Model
